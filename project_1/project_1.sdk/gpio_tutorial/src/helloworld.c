@@ -56,15 +56,16 @@ int main()
       XGpio gpio; // Create a GPIO instance
       XGpio_Initialize(&gpio,XPAR_AXI_GPIO_0_DEVICE_ID); // initialize the GPIO instance
      Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR+XGPIO_TRI_OFFSET,0); // Set channel 1 as output
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR+XGPIO_TRI_OFFSET+0x10,0);
      init_platform();
      print("Hello World\n\r");
      while(1){
     if(choice > 0)
                choice=0;
     else
-              choice=1;
+              choice=8;
     XGpio_DiscreteWrite(&gpio,1, choice);
-    gpio_state = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR);
+    gpio_state = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+0x10);
     printf("GPIO state = %d\r\n", gpio_state);
     }
     return 0;

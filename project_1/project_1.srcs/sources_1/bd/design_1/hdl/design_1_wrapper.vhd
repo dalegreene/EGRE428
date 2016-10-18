@@ -1,7 +1,7 @@
 --Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
---Date        : Mon Oct 17 22:10:05 2016
+--Date        : Mon Oct 17 22:29:26 2016
 --Host        : WIN-2SLPOAULO3T running 64-bit major release  (build 9200)
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
@@ -34,7 +34,7 @@ entity design_1_wrapper is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
-    gpio_rtl_tri_io : inout STD_LOGIC_VECTOR ( 0 to 0 )
+    gpio_rtl_tri_io : inout STD_LOGIC_VECTOR ( 3 downto 0 )
   );
 end design_1_wrapper;
 
@@ -62,9 +62,9 @@ architecture STRUCTURE of design_1_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    gpio_rtl_tri_i : in STD_LOGIC_VECTOR ( 0 to 0 );
-    gpio_rtl_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
-    gpio_rtl_tri_t : out STD_LOGIC_VECTOR ( 0 to 0 )
+    gpio_rtl_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    gpio_rtl_tri_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    gpio_rtl_tri_t : out STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component design_1;
   component IOBUF is
@@ -76,9 +76,21 @@ architecture STRUCTURE of design_1_wrapper is
   );
   end component IOBUF;
   signal gpio_rtl_tri_i_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal gpio_rtl_tri_i_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal gpio_rtl_tri_i_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal gpio_rtl_tri_i_3 : STD_LOGIC_VECTOR ( 3 to 3 );
   signal gpio_rtl_tri_io_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal gpio_rtl_tri_io_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal gpio_rtl_tri_io_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal gpio_rtl_tri_io_3 : STD_LOGIC_VECTOR ( 3 to 3 );
   signal gpio_rtl_tri_o_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal gpio_rtl_tri_o_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal gpio_rtl_tri_o_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal gpio_rtl_tri_o_3 : STD_LOGIC_VECTOR ( 3 to 3 );
   signal gpio_rtl_tri_t_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal gpio_rtl_tri_t_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal gpio_rtl_tri_t_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal gpio_rtl_tri_t_3 : STD_LOGIC_VECTOR ( 3 to 3 );
 begin
 design_1_i: component design_1
      port map (
@@ -103,8 +115,17 @@ design_1_i: component design_1
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
+      gpio_rtl_tri_i(3) => gpio_rtl_tri_i_3(3),
+      gpio_rtl_tri_i(2) => gpio_rtl_tri_i_2(2),
+      gpio_rtl_tri_i(1) => gpio_rtl_tri_i_1(1),
       gpio_rtl_tri_i(0) => gpio_rtl_tri_i_0(0),
+      gpio_rtl_tri_o(3) => gpio_rtl_tri_o_3(3),
+      gpio_rtl_tri_o(2) => gpio_rtl_tri_o_2(2),
+      gpio_rtl_tri_o(1) => gpio_rtl_tri_o_1(1),
       gpio_rtl_tri_o(0) => gpio_rtl_tri_o_0(0),
+      gpio_rtl_tri_t(3) => gpio_rtl_tri_t_3(3),
+      gpio_rtl_tri_t(2) => gpio_rtl_tri_t_2(2),
+      gpio_rtl_tri_t(1) => gpio_rtl_tri_t_1(1),
       gpio_rtl_tri_t(0) => gpio_rtl_tri_t_0(0)
     );
 gpio_rtl_tri_iobuf_0: component IOBUF
@@ -113,5 +134,26 @@ gpio_rtl_tri_iobuf_0: component IOBUF
       IO => gpio_rtl_tri_io(0),
       O => gpio_rtl_tri_i_0(0),
       T => gpio_rtl_tri_t_0(0)
+    );
+gpio_rtl_tri_iobuf_1: component IOBUF
+     port map (
+      I => gpio_rtl_tri_o_1(1),
+      IO => gpio_rtl_tri_io(1),
+      O => gpio_rtl_tri_i_1(1),
+      T => gpio_rtl_tri_t_1(1)
+    );
+gpio_rtl_tri_iobuf_2: component IOBUF
+     port map (
+      I => gpio_rtl_tri_o_2(2),
+      IO => gpio_rtl_tri_io(2),
+      O => gpio_rtl_tri_i_2(2),
+      T => gpio_rtl_tri_t_2(2)
+    );
+gpio_rtl_tri_iobuf_3: component IOBUF
+     port map (
+      I => gpio_rtl_tri_o_3(3),
+      IO => gpio_rtl_tri_io(3),
+      O => gpio_rtl_tri_i_3(3),
+      T => gpio_rtl_tri_t_3(3)
     );
 end STRUCTURE;
