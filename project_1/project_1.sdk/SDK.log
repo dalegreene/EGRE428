@@ -308,3 +308,94 @@ java.lang.RuntimeException: Debug Operation Not Supported on the Target, Current
 22:49:12 INFO  : FPGA configured successfully with bitstream "C:/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
 22:49:17 INFO  : Processor reset is completed for ps7_cortexa9_0
 22:50:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:30:31 INFO  : Launching XSDB server: xsdb.bat -interactive C:\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+15:30:33 INFO  : XSDB server has started successfully.
+15:30:34 INFO  : Processing command line option -hwspec C:/project_1/project_1.sdk/design_1_wrapper.hdf.
+15:30:34 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:30:37 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1476818709294,  Project:1476758038196
+15:30:37 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/project_1/project_1.sdk/design_1_wrapper.hdf.
+15:30:40 INFO  : Copied contents of C:/project_1/project_1.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:30:47 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:30:51 INFO  : 
+15:30:52 INFO  : Updating hardware inferred compiler options for gpio_tutorial.
+15:30:52 INFO  : Clearing existing target manager status.
+15:30:54 INFO  : Closing and re-opening the MSS file of ther project gpio_tutorial_bsp
+15:31:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:32:06 INFO  : Launching XSDB server: xsdb.bat -interactive C:\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+15:32:08 INFO  : XSDB server has started successfully.
+15:32:08 INFO  : Processing command line option -hwspec C:/project_1/project_1.sdk/design_1_wrapper.hdf.
+15:32:08 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:33:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:33:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:33:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+15:33:32 INFO  : FPGA configured successfully with bitstream "C:/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:33:59 INFO  : ps7_init is completed.
+15:33:59 INFO  : ps7_post_config is completed.
+15:33:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:36:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:58:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:58:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+19:58:37 INFO  : FPGA configured successfully with bitstream "C:/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:58:44 INFO  : ps7_init is completed.
+19:58:44 INFO  : ps7_post_config is completed.
+19:58:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:02:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:03:21 INFO  : Launching XSDB server: xsdb.bat -interactive C:\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+20:03:23 INFO  : XSDB server has started successfully.
+20:03:23 INFO  : Processing command line option -hwspec C:/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:03:23 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:04:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:04:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+20:04:22 INFO  : FPGA configured successfully with bitstream "C:/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:04:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:06:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:16:27 INFO  : Launching XSDB server: xsdb.bat -interactive C:\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+20:16:29 INFO  : XSDB server has started successfully.
+20:16:29 INFO  : Processing command line option -hwspec C:/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:16:29 ERROR : Error occurred while creating hardware platform design_1_wrapper_hw_platform_0 from sysdef
+org.eclipse.core.runtime.CoreException: Could not write file: C:\project_1\project_1.sdk\design_1_wrapper_hw_platform_0\.project.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:412)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1141)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:653)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1366)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1347)
+	at org.eclipse.core.internal.resources.Container.createFilter(Container.java:65)
+	at com.xilinx.sdk.hw.internal.HwProjectCreator.createHwProjectFromZip(HwProjectCreator.java:91)
+	at com.xilinx.sdk.hw.HwProjectUtil.internalCreate(HwProjectUtil.java:189)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:138)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:125)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:100)
+	at com.xilinx.sdk.startup.InitSDK.processHwSpecArgumentTask(InitSDK.java:436)
+	at com.xilinx.sdk.startup.InitSDK.access$7(InitSDK.java:418)
+	at com.xilinx.sdk.startup.InitSDK$12.run(InitSDK.java:369)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: C:\project_1\project_1.sdk\design_1_wrapper_hw_platform_0\.project (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:403)
+	... 14 more
+20:16:29 ERROR : Unable to create Hardware Specification Project with specification file: C:/project_1/project_1.sdk/design_1_wrapper.hdf
+20:17:12 INFO  : Launching XSDB server: xsdb.bat -interactive C:\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+20:17:14 INFO  : XSDB server has started successfully.
+20:17:14 INFO  : Processing command line option -hwspec C:/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:18:00 INFO  : Launching XSDB server: xsdb.bat -interactive C:\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+20:18:02 INFO  : XSDB server has started successfully.
+20:18:02 INFO  : Processing command line option -hwspec C:/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:20:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:20:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+20:20:44 INFO  : FPGA configured successfully with bitstream "C:/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:21:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:23:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:23:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+20:23:25 INFO  : FPGA configured successfully with bitstream "C:/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:23:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:26:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:27:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:28:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:30:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:31:07 INFO  : Launching XSDB server: xsdb.bat -interactive C:\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+20:31:09 INFO  : XSDB server has started successfully.
+20:31:10 INFO  : Processing command line option -hwspec C:/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:31:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

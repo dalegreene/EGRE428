@@ -1,15 +1,8 @@
-19:40:14 **** Auto Build of configuration Debug for project hw1 ****
+20:28:00 **** Incremental Build of configuration Debug for project hw1 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
-Building file: ../src/helloworld.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../hw1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c:49:20: fatal error: xil_io.h: No such file or directory
- #include "xil_io.h"
-                    ^
-compilation terminated.
-make: *** [src/helloworld.o] Error 1
+make: Nothing to be done for `main-build'.
 
-19:40:14 Build Finished (took 560ms)
+20:28:00 Build Finished (took 131ms)
 

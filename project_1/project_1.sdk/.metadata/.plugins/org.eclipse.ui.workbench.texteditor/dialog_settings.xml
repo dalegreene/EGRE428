@@ -2,14 +2,15 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="gpio_state" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="TRI_OFFSET"/>
+			<item value="gpio_state"/>
 			<item value="gpio"/>
+			<item value="TRI_OFFSET"/>
 			<item value="XPAR_GPIO_0"/>
 			<item value="XPAR_GPIO_1"/>
 			<item value="XPAR_GPIO"/>
