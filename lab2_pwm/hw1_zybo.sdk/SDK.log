@@ -1,0 +1,505 @@
+23:36:24 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+23:36:26 INFO  : XSDB server has started successfully.
+23:36:26 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+23:38:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:38:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:38:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+23:38:46 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:39:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:39:39 ERROR : Port COM5 is already in use.
+23:39:42 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00114000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+23:40:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:40:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+23:40:30 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:43:55 ERROR : (XSDB Server)bad option '-debug_sys': -processor -cores -dap -system -srst -jtag-timeout -timeout -help
+
+23:44:01 ERROR : (XSDB Server)bad option '-debug': -processor -cores -dap -system -srst -jtag-timeout -timeout -help
+
+23:44:02 ERROR : (XSDB Server)child process exited abnormally
+
+23:44:07 ERROR : (XSDB Server)child process exited abnormally
+
+23:57:19 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+23:57:21 INFO  : XSDB server has started successfully.
+23:57:22 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+23:57:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:58:33 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+23:58:34 INFO  : XSDB server has started successfully.
+23:58:40 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+23:58:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:58:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:58:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+23:58:57 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:59:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:59:37 ERROR : Port COM5 is already in use.
+23:59:37 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+00:02:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:02:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+00:02:16 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:08:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:35:27 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+00:35:29 INFO  : XSDB server has started successfully.
+00:35:29 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+00:35:30 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+00:35:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:35:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+00:35:51 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:36:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:36:40 ERROR : Port COM5 is already in use.
+00:36:40 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+00:37:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:37:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+00:37:49 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:37:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:38:17 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+00:38:19 INFO  : XSDB server has started successfully.
+00:38:19 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+00:38:19 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:08:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:08:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+01:08:57 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:13:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:13:35 INFO  : Jtag cable 'Digilent Zybo 210279655836A' is selected.
+01:13:35 INFO  : 'jtag frequency' command is executed.
+01:13:35 INFO  : Sourcing of 'C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+01:13:35 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279655836A"} -index 0' command is executed.
+01:13:35 INFO  : System reset is completed.
+01:13:38 INFO  : 'after 3000' command is executed.
+01:13:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+01:13:40 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:13:40 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279655836A"} -index 0' command is executed.
+01:13:40 INFO  : Hardware design information is loaded from 'C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+01:13:40 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279655836A"} -index 0' command is executed.
+01:13:41 INFO  : 'ps7_init' command is executed.
+01:13:41 INFO  : 'ps7_post_config' command is executed.
+01:13:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:13:41 INFO  : The application 'C:/hw1_zybo/hw1_zybo.sdk/gpio_tutorial/Debug/gpio_tutorial.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:13:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279655836A"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1
+fpga -file C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279655836A"} -index 0
+loadhw C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279655836A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279655836A"} -index 0
+dow C:/hw1_zybo/hw1_zybo.sdk/gpio_tutorial/Debug/gpio_tutorial.elf
+----------------End of Script----------------
+
+01:13:41 INFO  : Memory regions updated for context APU
+01:13:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:13:41 INFO  : 'con' command is executed.
+01:13:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279655836A"} -index 0
+con
+----------------End of Script----------------
+
+01:13:41 INFO  : Launch script is exported to file 'C:\hw1_zybo\hw1_zybo.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local_gpio_tutorial.elf.tcl'
+01:15:03 INFO  : Disconnected from the channel tcfchan#1.
+01:15:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:15:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+01:15:43 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:17:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:17:20 ERROR : Port COM5 is already in use.
+01:17:21 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+01:20:58 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:21:11 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+01:21:13 INFO  : XSDB server has started successfully.
+01:21:13 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+01:21:13 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:21:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:21:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:21:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:21:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+01:21:55 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:22:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:22:33 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+01:23:00 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:23:16 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+01:23:18 INFO  : XSDB server has started successfully.
+01:23:18 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+01:23:18 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:23:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:23:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+01:23:30 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:24:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:24:19 ERROR : Port COM5 is already in use.
+01:24:22 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00114000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+01:29:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:40:31 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+01:40:33 INFO  : XSDB server has started successfully.
+01:40:35 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+01:40:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:40:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1476596359672,  Project:1476588880370
+01:40:38 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+01:40:38 INFO  : Copied contents of C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+01:40:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:40:49 INFO  : 
+01:40:50 INFO  : Updating hardware inferred compiler options for gpio_tutorial.
+01:40:50 INFO  : Clearing existing target manager status.
+01:41:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:41:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+01:41:32 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:43:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:43:32 ERROR : Port COM5 is already in use.
+01:43:32 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+01:44:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:44:28 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+01:44:30 INFO  : XSDB server has started successfully.
+01:44:31 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+01:44:31 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:45:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:45:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+01:45:19 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:45:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:45:48 ERROR : Port COM5 is already in use.
+01:45:48 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:04:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:04:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+09:04:19 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:06:06 ERROR : (XSDB Server)child process exited abnormally
+
+09:06:18 ERROR : (XSDB Server)invalid command name "connections"
+
+09:06:21 ERROR : (XSDB Server)invalid command name "connection"
+
+09:06:37 ERROR : (XSDB Server)child process exited abnormally
+
+09:07:03 ERROR : (XSDB Server)invalid command name "connections"
+
+09:07:07 ERROR : (XSDB Server)invalid command name "connection"
+
+09:07:19 ERROR : (XSDB Server)child process exited abnormally
+
+09:07:23 ERROR : (XSDB Server)unexpected arguments: 4
+
+09:07:25 ERROR : (XSDB Server)bad option '-4': -processor -cores -dap -system -srst -jtag-timeout -timeout -help
+
+09:07:39 ERROR : (XSDB Server)invalid command name "4"
+
+09:07:53 ERROR : (XSDB Server)invalid command name "xc7z010"
+
+09:07:57 ERROR : (XSDB Server)invalid command name "xc7z010"
+
+09:08:21 ERROR : (XSDB Server)unsupported reset
+
+09:08:24 ERROR : (XSDB Server)unsupported reset
+
+09:08:28 ERROR : (XSDB Server)child process exited abnormally
+
+09:08:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:08:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+09:08:57 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:29:16 ERROR : (XSDB Server)invalid command name "running"
+
+09:29:46 ERROR : (XSDB Server)unexpected arguments: 1
+
+09:29:54 ERROR : (XSDB Server)unexpected arguments: xc7z010
+
+09:30:38 ERROR : (XSDB Server)invalid command name "running"
+
+09:35:54 ERROR : (XSDB Server)child process exited abnormally
+
+09:49:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:50:27 INFO  : Launching XSDB server: xsdb.bat -interactive C:\hw1_zybo\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+09:50:29 INFO  : XSDB server has started successfully.
+09:50:29 INFO  : Processing command line option -hwspec C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper.hdf.
+09:50:29 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:51:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:51:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+09:51:29 INFO  : FPGA configured successfully with bitstream "C:/hw1_zybo/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+09:51:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:52:03 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Error downloading program to target: 
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.loadProgram(XilinxAppLaunchConfigurationDelegate.java:865)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:746)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+09:52:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:27:28 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+22:27:30 INFO  : XSDB server has started successfully.
+22:27:32 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+22:36:08 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:36:34 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+22:36:37 INFO  : XSDB server has started successfully.
+22:36:37 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+22:39:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:39:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+22:39:47 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:40:01 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Project gpio_tutorial does not exist. Please check that your launch configuration specifies a valid project in your workspace.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:580)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+22:40:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:40:33 ERROR : Port COM5 is already in use.
+22:40:33 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+22:41:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:41:39 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+22:41:41 INFO  : XSDB server has started successfully.
+22:41:42 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+22:41:42 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:42:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:42:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+22:42:36 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:42:51 INFO  : ps7_init is completed.
+22:42:51 INFO  : ps7_post_config is completed.
+22:42:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:42:56 ERROR : Port COM5 is already in use.
+22:43:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:43:40 ERROR : Port COM5 is already in use.
+22:44:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:44:21 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+22:44:23 INFO  : XSDB server has started successfully.
+22:44:24 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+22:44:24 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:44:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:44:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+22:44:36 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:45:02 INFO  : ps7_init is completed.
+22:45:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:45:07 ERROR : Port COM5 is already in use.
+22:46:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:46:29 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+22:46:32 INFO  : XSDB server has started successfully.
+22:46:32 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+22:46:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:46:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:46:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+22:46:45 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:47:00 INFO  : System reset is completed.
+22:47:02 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:47:03 INFO  : ps7_init is completed.
+22:47:08 ERROR : Port COM5 is already in use.
+22:47:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:47:54 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+22:48:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:48:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+22:48:08 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:48:13 INFO  : ps7_init is completed.
+22:48:13 INFO  : ps7_post_config is completed.
+22:48:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:48:18 ERROR : Port COM5 is already in use.
+22:48:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:48:41 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+22:48:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:48:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+22:48:52 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:49:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:50:14 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+22:50:16 INFO  : XSDB server has started successfully.
+22:50:16 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+22:50:16 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:50:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:50:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+22:50:55 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:51:19 INFO  : ps7_init is completed.
+22:51:19 INFO  : ps7_post_config is completed.
+22:51:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:51:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:58:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:20:51 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+23:20:53 INFO  : XSDB server has started successfully.
+23:20:54 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+23:20:54 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:20:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1480998015109,  Project:1480994504716
+23:20:57 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+23:20:57 INFO  : Copied contents of C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:21:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:21:06 INFO  : 
+23:21:07 INFO  : Updating hardware inferred compiler options for hello_world.
+23:21:07 INFO  : Clearing existing target manager status.
+23:24:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:24:41 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+23:24:43 INFO  : XSDB server has started successfully.
+23:24:43 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+23:24:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:25:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:25:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+23:25:21 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:25:30 INFO  : Processor reset is completed for ps7_cortexa9_0
