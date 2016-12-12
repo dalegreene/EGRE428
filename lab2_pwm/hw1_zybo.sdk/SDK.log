@@ -508,3 +508,25 @@ java.lang.RuntimeException: Failed to download ELF file
 13:58:28 INFO  : XSDB server has started successfully.
 13:58:28 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
 13:58:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:23:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:23:51 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+18:23:53 INFO  : XSDB server has started successfully.
+18:23:54 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+18:23:54 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:23:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1481584979722,  Project:1480998015109
+18:23:57 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+18:23:57 INFO  : Copied contents of C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+18:24:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:24:21 INFO  : 
+18:24:22 INFO  : Updating hardware inferred compiler options for hello_world.
+18:24:22 INFO  : Clearing existing target manager status.
+18:27:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:28:02 INFO  : Launching XSDB server: xsdb.bat -interactive C:\lab2_pwm\hw1_zybo.sdk\temp_xsdb_launch_script.tcl
+18:28:04 INFO  : XSDB server has started successfully.
+18:28:04 INFO  : Processing command line option -hwspec C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper.hdf.
+18:30:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:30:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279655836A" && level==0} -index 1' command is executed.
+18:30:56 INFO  : FPGA configured successfully with bitstream "C:/lab2_pwm/hw1_zybo.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:31:32 INFO  : ps7_init is completed.
+18:31:32 INFO  : ps7_post_config is completed.
+18:31:32 INFO  : Processor reset is completed for ps7_cortexa9_0

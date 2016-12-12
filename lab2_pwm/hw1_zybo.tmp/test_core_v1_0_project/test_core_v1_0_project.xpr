@@ -6,7 +6,7 @@
 <Project Version="7" Minor="14" Path="c:/lab2_pwm/hw1_zybo.tmp/test_core_v1_0_project/test_core_v1_0_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="8cbb762ac3cc4b27b441a46974448a7b"/>
+    <Option Name="Id" Val="835b77786f274cb182beac63655225b7"/>
     <Option Name="Part" Val="xc7z010clg400-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>

@@ -1,6 +1,90 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Dec 12 18:18:41 2016
+| Host         : WIN-2SLPOAULO3T running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_test_core_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_test_core_0_0 (xilinx.com:user:test_core:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Dec 12 18:13:34 2016
+| Host         : WIN-2SLPOAULO3T running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_test_core_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_test_core_0_0 (xilinx.com:user:test_core:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Dec 12 18:11:34 2016
+| Host         : WIN-2SLPOAULO3T running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_test_core_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_test_core_0_0 (xilinx.com:user:test_core:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Dec 12 18:08:02 2016
+| Host         : WIN-2SLPOAULO3T running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_test_core_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_test_core_0_0 (xilinx.com:user:test_core:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
 | Date         : Fri Dec 09 14:17:55 2016
 | Host         : WIN-2SLPOAULO3T running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

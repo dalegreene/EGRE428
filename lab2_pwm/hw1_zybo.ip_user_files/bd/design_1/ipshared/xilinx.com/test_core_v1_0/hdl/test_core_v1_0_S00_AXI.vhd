@@ -138,14 +138,14 @@ begin
 	S_AXI_RVALID	<= axi_rvalid;
 	
 	-- My processes that I will implement. 
-	pwm <= unsigned(slv_reg0);
+	pwm <= to_integer(unsigned(slv_reg0));
 	
 	process (S_AXI_ACLK)
         begin
           if rising_edge(S_AXI_ACLK) then 
             if S_AXI_ARESETN = '0' then
               count1 <= 0;
-              output1 <= 0;
+              output1 <= '0';
             else
               count1 <= count1 + 1;
               if (count1 = 50) then
@@ -162,16 +162,15 @@ begin
               if rising_edge(output1) then 
                 if S_AXI_ARESETN = '0' then
                   count2 <= 0;
-                  output2 <= 0;
+                  output2 <= '0';
                 else
                   count2 <= count2 + 1;
-                  if (count = 100) then
+                  if (count2 = 100) then
                     output2 <= NOT output2;
                     count2 <= 0;
                   end if;
                 end if;
               end if;
-              speed_out <= output2;
     end process;
     process (output2)
             begin
