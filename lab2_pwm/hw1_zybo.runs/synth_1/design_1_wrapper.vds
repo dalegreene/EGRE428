@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Dec 09 14:18:35 2016
+# Process ID: 4992
+# Current directory: C:/lab2_pwm/hw1_zybo.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/lab2_pwm/hw1_zybo.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/lab2_pwm/hw1_zybo.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/ip_repo/test_core_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+Command: synth_design -top design_1_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2272 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 324.984 ; gain = 118.328
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2387] near unsigned ; type conversion does not match type integer [c:/lab2_pwm/hw1_zybo.srcs/sources_1/bd/design_1/ipshared/xilinx.com/test_core_v1_0/hdl/test_core_v1_0_S00_AXI.vhd:141]
+ERROR: [Synth 8-2774] type std_logic does not match with the integer literal [c:/lab2_pwm/hw1_zybo.srcs/sources_1/bd/design_1/ipshared/xilinx.com/test_core_v1_0/hdl/test_core_v1_0_S00_AXI.vhd:148]
+ERROR: [Synth 8-2774] type std_logic does not match with the integer literal [c:/lab2_pwm/hw1_zybo.srcs/sources_1/bd/design_1/ipshared/xilinx.com/test_core_v1_0/hdl/test_core_v1_0_S00_AXI.vhd:165]
+ERROR: [Synth 8-1031] count is not declared [c:/lab2_pwm/hw1_zybo.srcs/sources_1/bd/design_1/ipshared/xilinx.com/test_core_v1_0/hdl/test_core_v1_0_S00_AXI.vhd:168]
+INFO: [Synth 8-2810] unit arch_imp ignored due to previous errors [c:/lab2_pwm/hw1_zybo.srcs/sources_1/bd/design_1/ipshared/xilinx.com/test_core_v1_0/hdl/test_core_v1_0_S00_AXI.vhd:86]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 353.570 ; gain = 146.914
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 09 14:18:48 2016...
